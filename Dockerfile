@@ -1,8 +1,12 @@
-FROM py:3.9-alpine
+FROM python:3.9-slim
+
+RUN apt update \
+    && apt install -y --no-install-recommends gcc python3-dev \
+    && rm -rf /var/lib/apt/lists/* 
 
 COPY requirements.txt .
-RUN pip install -U wheel setuptools pip && \
-    pip install -r requirements.txt
+RUN pip install -U wheel setuptools pip \
+    && pip install -r requirements.txt
 
 WORKDIR /proj
 CMD [ "python", "script.py" ]

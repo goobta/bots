@@ -4,6 +4,6 @@ services:
     build: 
       context: ./ormond-chores/
       dockerfile: $PWD/Dockerfile
+    command: python src/bot.py
     volumes: 
       - ./ormond-chores:/proj
-    command: python src/bot.py
