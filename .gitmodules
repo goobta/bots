@@ -1,0 +1,3 @@
+[submodule "ormond-chores"]
+	path = ormond-chores
+	url = git@github.com:agupta231/ormond-chores-bot.git
