@@ -7,3 +7,4 @@ services:
     command: python src/bot.py
     volumes: 
       - ./ormond-chores:/proj
+    restart: on-failure
