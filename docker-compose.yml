@@ -1,0 +1,9 @@
+version: "3"
+services:
+  ormond-chore-mgr:
+    build: 
+      context: ./ormond-chores/
+      dockerfile: $PWD/Dockerfile
+    volumes: 
+      - ./ormond-chores:/proj
+    command: python src/bot.py
