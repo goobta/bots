@@ -3,8 +3,6 @@ services:
   ormond-chore-mgr:
     build: 
       context: ./ormond-chores/
-      dockerfile: $PWD/Dockerfile
-    command: python src/bot.py
     volumes: 
       - ./ormond-chores:/proj
     restart: on-failure
