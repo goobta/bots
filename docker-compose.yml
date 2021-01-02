@@ -5,6 +5,7 @@ services:
       context: ./ormond-chores/
     volumes: 
       - ./ormond-chores:/proj
+      - /etc/localtime:/etc/localtime
     restart: on-failure
 
   portainer:
