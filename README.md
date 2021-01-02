@@ -11,3 +11,9 @@ Some basic commands:
 * `docker-compose up` - bring up all bots/services
 * `docker-compose down` - shutdown the bots/services and clean up
 * `docker-compose run <service_name>` - run a service one-off
+
+### Management UI
+The bot stack also has [Portainer](https://www.portainer.io/) installed. 
+Portainer is a really easy web interface to see the state of your stack. Once 
+the stack is up and running, the navigate to `localhost:9000` in your browser
+to see the interface!
