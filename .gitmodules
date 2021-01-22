@@ -3,4 +3,4 @@
 	url = git@github.com:agupta231/ormond-chores-bot.git
 [submodule "bot-template"]
 	path = bot-template
-	url = https://github.com/agupta231/bot-template.git
+	url = git@github.com:agupta231/bot-template.git
