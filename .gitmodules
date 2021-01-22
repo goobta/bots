@@ -1,3 +1,6 @@
 [submodule "ormond-chores"]
 	path = ormond-chores
 	url = git@github.com:agupta231/ormond-chores-bot.git
+[submodule "scalperos"]
+	path = scalperos
+	url = https://github.com/agupta231/ScalperOS.git
