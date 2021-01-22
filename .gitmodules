@@ -4,3 +4,6 @@
 [submodule "scalperos"]
 	path = scalperos
 	url = https://github.com/agupta231/ScalperOS.git
+[submodule "bot-template"]
+	path = bot-template
+	url = https://github.com/agupta231/bot-template.git
