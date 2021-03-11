@@ -4,3 +4,6 @@
 [submodule "bot-template"]
 	path = bot-template
 	url = git@github.com:agupta231/bot-template.git
+[submodule "chess960-scheduler"]
+	path = chess960-scheduler
+	url = git@github.com:agupta231/chess960-scheduler.git
