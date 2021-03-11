@@ -8,6 +8,14 @@ services:
       - /etc/localtime:/etc/localtime
     restart: on-failure
 
+  chess960-scheduler:
+    build:
+      context: ./chess960-scheduler/bin/
+    volumes:
+      - ./chess960-scheduler/src:/src
+      - /etc/localtime:/etc/localtime
+    restart: on-failure
+
   portainer:
     image: portainer/portainer
     volumes:
