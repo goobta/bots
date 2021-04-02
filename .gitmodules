@@ -7,3 +7,6 @@
 [submodule "chess960-scheduler"]
 	path = chess960-scheduler
 	url = git@github.com:agupta231/chess960-scheduler.git
+[submodule "senior-gregg"]
+	path = senior-gregg
+	url = git@github.com:agupta231/senior-gregg.git
